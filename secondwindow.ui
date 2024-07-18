@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>secondwindow</class>
+ <widget class="QDialog" name="secondwindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1043</width>
+    <height>662</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QScrollArea" name="scrollArea">
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>1017</width>
+          <height>522</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QTableWidget" name="tableWidget"/>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>код направления</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>дисциплина</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>ФИО преподавателя</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>дата</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QLineEdit" name="code"/>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="discipline"/>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="fullname"/>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="date"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Fixed</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>16</width>
+         <height>5</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="add_button">
+         <property name="text">
+          <string>Добавить</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="delete_button">
+         <property name="text">
+          <string>Удалить</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="search_button">
+         <property name="text">
+          <string>Найти</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="debugging_button">
+         <property name="text">
+          <string>окно отладки</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton">
+         <property name="text">
+          <string>Выгрузить в файл</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

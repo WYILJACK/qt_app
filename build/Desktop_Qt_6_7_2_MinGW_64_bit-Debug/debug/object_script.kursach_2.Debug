@@ -1,0 +1,11 @@
+debug/hashtable.o
+debug/tree.o
+debug/debugger.o
+debug/file_dialog.o
+debug/main.o
+debug/mainwindow.o
+debug/secondwindow.o
+debug/moc_debugger.o
+debug/moc_file_dialog.o
+debug/moc_mainwindow.o
+debug/moc_secondwindow.o

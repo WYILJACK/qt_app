@@ -1,0 +1,11 @@
+release/hashtable.o
+release/tree.o
+release/debugger.o
+release/file_dialog.o
+release/main.o
+release/mainwindow.o
+release/secondwindow.o
+release/moc_debugger.o
+release/moc_file_dialog.o
+release/moc_mainwindow.o
+release/moc_secondwindow.o
